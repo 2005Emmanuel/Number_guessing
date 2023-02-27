@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Number_guess {
 
     public static void main(String[] args) { //main method
-        Main_number_guess main_number_guess = new Main_number_guess();//createda new object of class Number_guess
+        Main_number_guess main_number_guess = new Main_number_guess();//created a new object of class Number_guess
         main_number_guess.number_guess();//object calling the number_guess method
 
     }
@@ -23,7 +23,7 @@ class Main_number_guess {
 
     public void number_guess() { //number_guess method
         Scanner sobj1 = new Scanner(System.in); //new object of class scanner
-        int number = 1 * (int) (10 * Math.random()); //Using the Math method to pick a random number from 10
+        int number = 1 * (int) (10 * Math.random()); //Using the Math method to pick a random number from 1 to 10
         System.out.println("guess th number : \n"); //User prompt
         int trial = 5;
         for (int iterator = 0; iterator < trial; iterator++) { //trials level
